@@ -1,0 +1,15 @@
+def select(lst, num):
+    pass
+
+def sep(lst):
+    ans = []
+    temp = []
+    for i in lst:
+        if len(temp)== 5:
+            ans.append(temp)
+            temp = []
+        temp.append(i)
+    return ans
+
+x = [10,1,0,11,3,9,20,12,7,8,17,6,2,14,19,18,21,16,15,13,5,4]
+print(sep(x))
