@@ -107,4 +107,4 @@ def draw():
     if paused:
         return
     update()
-    #delay(500)
+    delay(5)
